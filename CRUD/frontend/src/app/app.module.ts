@@ -18,6 +18,7 @@ import { RedDirective } from './directves/red.directive';
 import { ForDirective } from './directves/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { MatButtonModule} from '@angular/material/button';
+import { MatSnackBarModule} from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { MatButtonModule} from '@angular/material/button';
     MatListModule,
     MatCardModule,
     AppRoutingModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
