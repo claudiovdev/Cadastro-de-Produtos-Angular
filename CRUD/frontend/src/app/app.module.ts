@@ -16,6 +16,7 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { AppRoutingModule } from './app-routing.module';
 import { RedDirective } from './directves/red.directive';
 import { ForDirective } from './directves/for.directive';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ForDirective } from './directves/for.directive';
     ProductCrudComponent,
     RedDirective,
     ForDirective,
+    ProductCreateComponent,
 
   ],
   imports: [
