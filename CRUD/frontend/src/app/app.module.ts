@@ -17,6 +17,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { RedDirective } from './directves/red.directive';
 import { ForDirective } from './directves/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
