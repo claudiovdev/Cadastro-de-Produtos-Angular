@@ -1,19 +1,19 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta Azul",
-      "price": 5.89
+      "name": "Caneta Verde",
+      "price": "1.99",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Notebook Mac Pro",
-      "price": 12000.89
+      "name": "Camiseta de Manga",
+      "price": "5000",
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Sansung S20",
-      "price": 5000.89
+      "name": "Tenis da Nike",
+      "price": "1.99",
+      "id": 3
     }
   ]
 }
